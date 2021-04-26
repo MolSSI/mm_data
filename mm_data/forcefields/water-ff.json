@@ -1,0 +1,117 @@
+{
+    "schema_name": "mmschema_forcefield",
+    "schema_version": 0,
+    "name": "H2O",
+    "symbols": [
+        "O",
+        "H",
+        "H"
+    ],
+    "nonbonded": {
+        "form": "LennardJones",
+        "params": {
+            "epsilon": [
+                0.636386,
+                0.0,
+                0.0
+            ],
+            "epsilon_units": "kJ/mol",
+            "sigma": [
+                1.575305,
+                0.0,
+                0.0
+            ],
+            "sigma_units": "angstrom"
+        }
+    },
+    "bonds": {
+        "form": "Harmonic",
+        "params": {
+            "spring": [
+                2512.08,
+                2512.08
+            ],
+            "spring_units": "kJ/(mol*angstrom**2)"
+        },
+        "lengths": [
+            0.9572,
+            0.9572
+        ],
+        "lengths_units": "angstroms",
+        "indices": [
+            [
+                0,
+                1,
+                1.0
+            ],
+            [
+                0,
+                2,
+                1.0
+            ]
+        ]
+    },
+    "angles": {
+        "form": "Harmonic",
+        "params": {
+            "spring": [
+                0.09565291598722435
+            ],
+            "spring_units": "kJ/(mol*degrees**2)"
+        },
+        "angles": [
+            104.52
+        ],
+        "angles_units": "degrees",
+        "indices": [
+            [
+                1,
+                0,
+                2
+            ]
+        ]
+    },
+    "charges": [
+        -0.834,
+        0.417,
+        0.417
+    ],
+    "charges_units": "e",
+    "masses": [
+        16.0,
+        1.008,
+        1.008
+    ],
+    "masses_units": "amu",
+    "exclusions": "3",
+    "defs": [
+        "OW",
+        "HW",
+        "HW"
+    ],
+    "substructs": [
+        [
+            "SOL",
+            0
+        ],
+        [
+            "SOL",
+            0
+        ],
+        [
+            "SOL",
+            0
+        ]
+    ],
+    "combination_rule": "Lorentz-Berthelot",
+    "atomic_numbers": [
+        8,
+        1,
+        1
+    ],
+    "provenance": {
+        "creator": "MMElemental",
+        "version": "0+untagged.586.g645c496.dirty",
+        "routine": "mmelemental.models.forcefield.mm_ff"
+    }
+}
