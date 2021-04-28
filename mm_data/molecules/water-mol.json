@@ -1,6 +1,6 @@
 {
     "schema_name": "mmschema_molecule",
-    "schema_version": 0,
+    "schema_version": 1,
     "symbols": [
         "O",
         "H",
