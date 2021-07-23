@@ -38,7 +38,7 @@
             0.9572
         ],
         "lengths_units": "angstroms",
-        "indices": [
+        "connectivity": [
             [
                 0,
                 1,
@@ -63,7 +63,7 @@
             104.52
         ],
         "angles_units": "degrees",
-        "indices": [
+        "connectivity": [
             [
                 1,
                 0,
