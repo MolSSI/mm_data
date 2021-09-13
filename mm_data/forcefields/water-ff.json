@@ -9,6 +9,7 @@
     ],
     "nonbonded": {
         "form": "LennardJones",
+        "combination_rule": "Lorentz-Berthelot",
         "params": {
             "epsilon": [
                 0.636386,
@@ -103,7 +104,6 @@
             0
         ]
     ],
-    "combination_rule": "Lorentz-Berthelot",
     "atomic_numbers": [
         8,
         1,

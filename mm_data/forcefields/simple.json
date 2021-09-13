@@ -32,6 +32,7 @@
     ],
     "nonbonded": {
         "form": "LennardJones",
+        "combination_rule": "Lorentz-Berthelot",
         "params": {
             "epsilon": [
                 0.0656888,
@@ -585,7 +586,6 @@
         "HH32",
         "HH33"
     ],
-    "combination_rule": "Lorentz-Berthelot",
     "atomic_numbers": [
         1,
         6,
