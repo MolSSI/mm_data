@@ -374,10 +374,10 @@
         0.07028983066280481,
         0.5371053763899726
     ],
-    "forces_units": "kJ/mol*angstrom",
+    "forces_units": "kJ/(mol*angstrom)",
     "provenance": {
         "creator": "MMElemental",
         "version": "0+untagged.718.g5c97361.dirty",
-        "routine": "mmelemental.models.collect.mm_traj"
+        "routine": "mmelemental.models.collect.trajectory"
     }
 }
